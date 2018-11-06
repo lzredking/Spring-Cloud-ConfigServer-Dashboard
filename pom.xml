@@ -42,60 +42,19 @@
 
 	<dependencies>
 		
-		<!-- <dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
-		</dependency> -->
-		
-		
 	    <dependency>
 	        <groupId>org.springframework.boot</groupId>
 	        <artifactId>spring-boot-starter-actuator</artifactId>
 	    </dependency>
-		<!-- 启用 Spring Cloud Bus -->
-		<!-- <dependency>
-		  <groupId>org.springframework.cloud</groupId>
-		  <artifactId>spring-cloud-config-monitor</artifactId>
-		</dependency> -->
-		<!-- 启用 Spring Cloud Bus后要开启amqp 默认rabbitmq -->
-	    <!-- <dependency>
-	        <groupId>org.springframework.boot</groupId>
-	        <artifactId>spring-boot-starter-amqp</artifactId>
-	    </dependency> -->
-	    <!-- <dependency>
-		    <groupId>org.springframework.cloud</groupId>
-		    <artifactId>spring-cloud-starter-bus-amqp</artifactId>
-		</dependency> -->
 	    <dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!-- <dependency>
-	            <groupId>org.springframework.boot</groupId>
-	            <artifactId>spring-boot-starter-logging</artifactId>
-	            <exclusions>
-					<exclusion>
-					<artifactId>logback-classic</artifactId>
-					<groupId>ch.qos.logback</groupId>
-					</exclusion>
-				</exclusions>
-	    </dependency>	
-	    <dependency> 
-	           <groupId>org.springframework.boot</groupId>
-	           <artifactId>spring-boot-starter-log4j2</artifactId>
-	    </dependency> -->
-	    <!-- Java并发框架 
-	    -->
 	    <dependency>
 		    <groupId>commons-lang</groupId>
   			<artifactId>commons-lang</artifactId>
   			<version>2.6</version>
 		</dependency>
-       <!-- eureka服务注册发现 做成配置中心集群-->
-	   <!--  <dependency>
-	        <groupId>org.springframework.cloud</groupId>
-	        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-	    </dependency> -->
 		
 		<dependency>
 			<groupId>org.eclipse.jgit</groupId>
